@@ -52,3 +52,7 @@ steps:
 
   - task: PublishPipelineArtifact@1
     displayName: 'Publish Pipeline Artifact'
+
+<properties>
+  - <failOnMissingWebXml>false</failOnMissingWebXml>   
+</properties>
